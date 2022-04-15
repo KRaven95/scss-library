@@ -1,0 +1,8 @@
+/node_modules
+.pnp
+.npm
+.pnpm
+
+.env
+
+node_modules
