@@ -1,2 +1,12 @@
-$red: #ff0000;
-$blue: #0000ff;
+$var: "defined vars"
+
+//====================================
+$breakpoints: (
+  mobile: 375px,
+  smallTablet: 576px,
+  tablet: 768px,
+  bitTablet: 991px,
+  desktop: 1200px,
+  bigDesktop: 1400px
+) 
+  //===================================
