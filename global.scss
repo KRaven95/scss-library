@@ -1,0 +1,14 @@
+@import "./master";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#test {
+  @include flex-center;
+  background-color: $blue;
+  width: 200px;
+  height: 200px;
+}
