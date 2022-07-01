@@ -1,12 +1,14 @@
-$var: "defined vars"
-
 //====================================
 $breakpoints: (
-  mobile: 375px,
-  smallTablet: 576px,
-  tablet: 768px,
-  bitTablet: 991px,
-  desktop: 1200px,
-  bigDesktop: 1400px
-) 
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 991px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$device-variants: "desktop", "tablet", "mobile";
+
+$display-variants: "block", "flex";
   //===================================

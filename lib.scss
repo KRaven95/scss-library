@@ -1,1 +1,41 @@
-$lib: "lib from graphic designer"
+@use "./variables.scss" as *;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: max-content;
+  width: 100%;
+}
+
+section {
+  position: relative;
+}
+
+
+.container-xxl {
+  width: 100%;
+  height: max-content;
+  background-color: transparent;
+  position: relative;
+  padding: 0px 15px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container-xl {
+  width: 100%;
+  height: max-content;
+  background-color: transparent;
+  position: relative;
+  padding: 0px 15px;
+  max-width: 1140px;
+  margin: auto;
+}

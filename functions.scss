@@ -1,25 +1,25 @@
 @use "./variables.scss" as *;
 
-@function get-mobile() {
-  @return map-get($breakpoints, mobile);
+@function get-xs() {
+  @return map-get($breakpoints, xs);
 };
 
-@function get-smallTablet() {
-  @return map-get($breakpoints, smallTablet);
+@function get-sm() {
+  @return map-get($breakpoints, sm);
 };
 
-@function get-tablet() {
-  @return map-get($breakpoints, tablet);
+@function get-md() {
+  @return map-get($breakpoints, md);
 };
 
-@function get-bigTablet() {
-  @return map-get($breakpoints, bigTablet);
+@function get-lg() {
+  @return map-get($breakpoints, lg);
 };
 
-@function get-desktop() {
-  @return map-get($breakpoints, desktop);
+@function get-xl() {
+  @return map-get($breakpoints, xl);
 };
 
-@function get-bigDesktop() {
-  @return map-get($breakpoints, bigDesktop);
+@function get-xxl() {
+  @return map-get($breakpoints, xxl);
 };
